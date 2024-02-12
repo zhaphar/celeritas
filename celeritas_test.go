@@ -25,3 +25,9 @@ func TestDivide(t *testing.T) {
 		t.Error("Expected 6 / 3 to equal 2")
 	}
 }
+
+func TestModulus(t *testing.T) {
+	if Modulus(5, 3) != 2 {
+		t.Error("Expected 5 % 3 to equal 2")
+	}
+}
